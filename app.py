@@ -31,7 +31,7 @@ STRINGS = {
 جلب معلومات اللاعب الكاملة منظم بالإيموجي.
 
 🛡️ /clan CLAN_ID REGION
- (مثال: /clan 3086500970 BD).
+جلب معلومات الكلان بالكامل منظم بالإيموجي (مثال: /clan 3086500970 BD).
 
 🔑 /jwt UID PASSWORD
 استخراج JWT Token و Access Token من السيرفر الجديد.
@@ -417,11 +417,6 @@ def main():
 
     # بدء تشغيل البوت
     print("🤖 Bot is successfully running...")
-    application.run_polling()
-
-if __name__ == '__main__':
-    main()
-ng...")
     application.run_polling()
 
 if __name__ == '__main__':
